@@ -1,0 +1,10 @@
+type: southeast
+input_size: 4
+observation_size: 1
+dataset_window: 10
+data_path: data/south_con/thickener_1.npy # it can also be set as thickener_2.npy
+io: 4-1
+history_length: 30
+forward_length: 60
+target_names: ['Pressure']
+smooth_alpha: 0.3

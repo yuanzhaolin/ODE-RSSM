@@ -1,0 +1,8 @@
+# @package _group_
+type: vaernn
+state_size: 8
+k_size: 32
+num_layers: 1
+
+
+
